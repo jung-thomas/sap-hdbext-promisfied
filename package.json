@@ -1,36 +1,33 @@
 {
-		"name": "sap-hdbext-promisfied",
-  "version": "1.0.0",
-    "description": "Promise wrapper for @sap/hdbext",
-    "main": "index.js",
-    "keywords": [
-        "promise",
-        "hdbext",
-        "sap",
-        "hana",
-        "database"
-    ],
-    "author": "jungsap",
-    "license": "Apache 2.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jungsap/sap-hdbext-promisfied.git"
-    },
-    "dependencies": {
-		"@sap/hdbext": "4.7.2"
-	},
-	"devDependencies": {
-        "chai": "^4.1.2",
-        "eslint": "^4.19.1"
-	},
-	"files": [],
-	"scripts": {
-        "lint": "./node_modules/.bin/eslint ./lib",
-        "lint-local": "./node_modules/.bin/eslint ./lib --output-file=eslint.log.htm --format=html --fix",
-        "validate": "npm run lint && npm run test"
-	},
-	"engines": {
-		"node": "8.x"
-	},
-	"version": "1.0.0"
+ "name": "sap-hdbext-promisfied",
+ "version": "1.0.0",
+ "description": "Promise wrapper for @sap/hdbext",
+ "main": "index.js",
+ "keywords": [
+  "promise",
+  "hdbext",
+  "sap",
+  "hana",
+  "database"
+ ],
+ "author": "jungsap",
+ "license": "Apache-2.0",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/jungsap/sap-hdbext-promisfied.git"
+ },
+ "dependencies": {},
+ "devDependencies": {
+  "chai": "^4.1.2",
+  "eslint": "^4.19.1"
+ },
+ "files": [],
+ "scripts": {
+  "lint": "./node_modules/.bin/eslint ./lib",
+  "lint-local": "./node_modules/.bin/eslint ./lib --output-file=eslint.log.htm --format=html --fix",
+  "validate": "npm run lint && npm run test"
+ },
+ "engines": {
+  "node": "8.x"
+ }
 }
